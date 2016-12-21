@@ -19,10 +19,6 @@ function hypeWall_extended_init() {
 	elgg_extend_view('css/elgg', 'hypeWall_extended/css');
 	elgg_register_css('hypeWall_extended_css', elgg_get_site_url().'mod/' . HYPEWALL_EXTENDED_ID . '/views/default/hypeWall_extended/hypeWall_extended.css');
 	
-	// load awesome fonts
-	elgg_register_css('hypeWall_extended_awesome', elgg_get_site_url().'mod/' . HYPEWALL_EXTENDED_ID . '/vendors/font-awesome/css/font-awesome.css');
-	elgg_load_css('hypeWall_extended_awesome');
-	
 	// extend JS
 	elgg_extend_view('js/elgg', 'js/hypeWall_extended/set_css_options');
 
